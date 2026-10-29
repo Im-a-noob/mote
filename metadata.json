@@ -1,0 +1,6 @@
+{
+  "name": "Mochie Water & Underwater Shader — Three.js WebGL2 Port",
+  "description": "A faithful 1:1 WebGL2 / Three.js GLSL port of Mochie's Unity Water and Underwater Shaders featuring 4-wave Gerstner displacement, 3D Voronoi depth-projected caustics, screen-space refraction, subsurface scattering, edge/crest foam, and split-screen meniscus underwater post-processing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

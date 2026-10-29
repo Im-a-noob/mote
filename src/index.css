@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #070b12;
+    color: #f1f5f9;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom styling for lil-gui root panel when toggled on */
+.lil-gui.root {
+  position: fixed !important;
+  top: 64px !important;
+  right: 16px !important;
+  z-index: 40 !important;
+  max-height: calc(100vh - 220px) !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(255, 255, 255, 0.16) !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.65) !important;
+  overflow-y: auto !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  --background-color: #0d1522 !important;
+  --text-color: #f1f5f9 !important;
+  --title-background-color: #131e31 !important;
+  --widget-color: #1e293b !important;
+  --hover-color: #334155 !important;
+  --focus-color: #0ea5e9 !important;
+  --number-color: #38bdf8 !important;
+  --string-color: #34d399 !important;
+}
